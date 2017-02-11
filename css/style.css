@@ -1,0 +1,61 @@
+#header{
+	text-align: center;
+	padding: 50px 0;
+}
+
+.container{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	overflow: visible;
+
+}
+
+#main, #footer, #header{
+	display: block;
+	margin: 0 auto;
+	max-width: 90%;
+
+
+}
+
+/* -------------- MAIN----------------------*/
+
+#main img {
+
+ height: 90%;
+ width: 90%;
+
+}
+
+.current{
+	font-weight: bold;
+}
+
+/* -------------- FOOTER----------------------*/
+
+#footer nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+
+}
+
+#footer a{
+//	color: black;
+}
+
+.btn-default{
+	color: #337ab7;
+}
+
+
+/* -------------- Media queries ----------------------*/
+
+@media (min-width: 900px) { 
+#main, #footer{
+	max-width: 70%;
+}
+
+
+}
